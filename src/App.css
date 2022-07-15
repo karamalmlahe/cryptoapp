@@ -1,6 +1,54 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: Cairo_Regular;
+  src: url(./../public/fonts/Cairo-Regular.ttf);
 }
+
+.App {
+  font-family: Cairo_Regular;
+  padding: 30px;
+  margin: auto;
+  max-width: 900px;
+  cursor: default;
+}
+
+#bv-modal {
+  font-family: Cairo;
+  cursor: default;
+}
+
+.hover:hover {
+  border-color: red;
+}
+#line {
+  width: 80%;
+  align-self: center;
+}
+.hover:hover #line  {
+  color: red;
+}
+.MadeCon{
+  display: inline-flex;
+  justify-content: center;
+
+}
+.Image{
+  margin-left:5px;
+  width: 35px;
+  height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
